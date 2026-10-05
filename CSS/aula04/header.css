@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Limelight&display=swap');
+ 
+ 
+ body {
+    background-color: rebeccapurple;
+ }
+
+ header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #logo {
+    height: 50px;
+ }
+
+ #foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+ }
+
+ #usuario {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 2px;
+ }
+
+ a {
+   font-family: "Limelight", sans-serif;
+   padding-left: 19px;
+   /* text-decoration: nome remove o sublinhado do link ou qualisquer outras decoraçoes que uma tag textual possa ter */
+   text-decoration: none;
+ }
+
+ #nome_usuario {
+   font-family: "Limelight", sans-serif;
+ }
+
+ #header-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ footer {
+   background-color: black;
+   height: 400px;
+ }
+
+ #direitos {
+   color: aliceblue;
+ }
